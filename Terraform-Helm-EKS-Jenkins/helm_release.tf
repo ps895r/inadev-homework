@@ -2,6 +2,7 @@ resource "helm_release" "jenkins" {
   name       = "jenkins"
   repository = "https://charts.jenkins.io"
   chart      = "jenkins"
+  timeout    = 1500
 
   values = [
     "${file("jenkins-values.yaml")}"
