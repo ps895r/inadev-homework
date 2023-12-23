@@ -17,7 +17,7 @@ variable "jenkins_admin_password" {
 variable "cluster_name" {
   type        = string
   description = "The name of the EKS cluster."
-  default     = "dev3-cluster"
+  default     = "dev4-cluster"
 }
 
 variable "cluster_version" {
