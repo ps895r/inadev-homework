@@ -10,7 +10,7 @@ dev2_subnet_cidr_block = "10.0.2.0/24"
 # ------------------------------------------------------------
 # EKS Cluster Settings
 # ------------------------------------------------------------
-cluster_name = "dev5-cluster"
+cluster_name = "dev6-cluster"
 cluster_version = "1.22"
 worker_group_name = "dev-worker-group-1"
 worker_group_instance_type = [ "t3.medium" ]
